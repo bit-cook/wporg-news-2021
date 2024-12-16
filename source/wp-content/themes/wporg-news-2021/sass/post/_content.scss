@@ -46,7 +46,8 @@ body.archive .site-content-container,
 body.search .site-content-container,
 body.single:not(.single-podcast) .site-content-container .wp-block-post-content,
 body.single-podcast .site-content-container .podcast-wrapper,
-body.page .site-content-container .wp-block-post-content {
+body.page .site-content-container .wp-block-post-content,
+body.single .wporg-news-sharing {
 
 	@extend %two-column-grid-container-dynamic-rows;
 }
